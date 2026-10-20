@@ -1,0 +1,7 @@
+Create a Playwright API-to-UI test for ShopLab:  
+
+1. Clear the cart and add product p2 with quantity 2 using the API. Verify the API response. 
+2.  Open /cart in the browser and verify the product, quantity, subtotal, and total.   
+3. Increase the quantity through the UI, then verify the updated quantity and total through both the UI and GET /api/cart. 
+4.  Clean up the cart after the test. 
+5.   Follow the project's existing fixtures and page-object conventions.   
