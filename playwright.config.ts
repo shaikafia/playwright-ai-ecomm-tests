@@ -7,7 +7,7 @@ const { baseUrl } = config.environments[env];
 export default defineConfig({
   testDir: './tests',
   use: {
-    baseURL: baseUrl,
+    baseURL: process.env.BASE_URL || baseUrl,
     trace: 'on-first-retry',
   },
   projects: [
